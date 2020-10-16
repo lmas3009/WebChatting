@@ -1,0 +1,161 @@
+/* Login page Stylesheet */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%)
+}
+
+.mainform{
+    width: 350px;
+    height: 400px;
+    background-color: red;
+    border-radius: 20px;
+}
+.form{
+    padding: 30px;
+}
+
+
+.form-control{
+    height: 50px;
+}
+
+.loginbtn{
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.registerbtn{
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn{
+    width: 300px;
+    float: center;
+}
+
+.veri h6{
+    width: 300px;
+    float:center;
+    margin-left: 85px;
+    color: white;
+}
+
+.hidden1{
+    height: 20px;
+}
+
+.signin1{
+    background-color: white;
+    padding: 20px;
+}
+
+.signin1 a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.signin{
+    cursor: pointer;
+    height: 50px;
+    width: 120px;
+    background-color: red;
+    border-color: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.signin_1{
+    cursor: pointer;
+    height: 50px;
+    width: 120px;
+    background-color: #E65454;
+    border-color: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.signup1{
+    padding: 20px;
+}
+
+.signup1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.signup{
+    cursor: pointer;
+    height: 50px;
+    width: 120px;
+    background-color: #E65454;
+    border-color: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.signup_1{
+    cursor: pointer;
+    height: 50px;
+    width: 120px;
+    background-color: red;
+    border-color: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.signin2{
+    padding: 20px;
+}
+
+.signin2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.signup2{
+    background-color: white;
+    padding: 20px;
+}
+
+.signup2 a{
+    text-decoration: none;
+    color: white;
+}

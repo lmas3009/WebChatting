@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link,browserHistory,IndexRoute,BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 
 export default function Topnav(){
     return(
@@ -9,11 +10,10 @@ export default function Topnav(){
                         <li><a>Web Chatting</a></li>
                     </div>
                     <div className="login">
-                        <li><a className="loginbtn">Login</a></li>
+                    <Link className="link" to="/login"><li><a className="loginbtn">Login</a></li></Link>
                     </div>
                     <div className="screens">    
                         <li><a>Documentation</a></li>
-                        <li><a>Get Started</a></li>
                         <li><a>Home</a></li>
                     </div>
                 </ul>

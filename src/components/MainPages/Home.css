@@ -42,6 +42,7 @@
     border-color: black;
     color: white;
     border-radius: 10px;
+    animation: animation 0.5s ease-in-out;
 }
 
 
@@ -72,7 +73,7 @@
     width: 200px;
 }
 
-@media screen and (max-width: 370px) {
+@media only screen and (max-width: 370px ) {
     .mobile{
         display: flex;
     }
@@ -82,11 +83,64 @@
     
 }
 
+@media only screen and (max-width: 640px ) {
+    .mobile{
+        display: flex;
+        margin-top: -5px;
+    }
+    .web{
+        display: none;
+    }
+    
+}
+
+@keyframes animation{
+    from{
+        background-color: rgb(0, 0, 0);
+    }
+    50% {
+        background-color: rgb(0, 0, 0);
+    }
+    100% {
+        background-color: red;
+    }
+    to{
+        background-color: red;
+    }
+}
+
 .divider{
-    height: 2px;
-    background-color: black;
+    height: 1px;
+    background-color: #0000FF;
     width: 500px;
 }
 
 .main{
+    height: 70vh;
+    padding: 30px;
 }
+
+.maininfo{
+    margin-top: 11%;
+    padding: 30px;
+}
+
+.maininfo h1{
+    color: black;
+}
+
+
+.info{
+    padding: 30px;
+}
+
+.info p{
+    font-size: 20px;
+}
+
+.mainvideo{
+    margin-top: 5%;
+    padding: 20px;
+}
+
+
