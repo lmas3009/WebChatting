@@ -1,146 +1,45 @@
-.topnav{
-    list-style-type: none; 
+*{
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #ffffff;
 }
 
-.topnav .logo li{
-    float: left;
-    padding: 16px;
-}
-.topnav .logo li a{
-    letter-spacing: 3px;
-    cursor: default;
-}
-
-.topnav .screens li{
-    float: right;
-    padding: 16px;
-    padding-left: 30px;
-}
-
-.topnav .login li{
-    float: right;
-    padding: 16px;
-    padding-left: 30px;
-}
-
-.topnav li a{
-    color: #000000;
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    cursor: pointer;
-}
-
-.topnav .screens li a:hover{
-    background-color: red;
-    padding: 10px;
-    overflow: hidden;
-    border-color: black;
-    color: white;
-    border-radius: 10px;
-    animation: animation 0.5s ease-in-out;
-}
-
-
-.topnav .loginbtn{
-    background-color: #127b9b;
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 12px;
-    color: white;
-}
-
-.mobile{
-    display: none;
-    flex-direction: column;
+.header1{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    margin-top: 100px;
+    border-bottom-width: 3px;
+    padding: 5px;
+    border-style: solid;
+    border-color: white;
+    border-bottom-color: black;
 }
 
-.mobile h2{
-    margin-top: 30px;
-    text-align: center;
+.title h1{
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 600;
 }
 
-.img404{
-    height: 200px;
-    width: 200px;
+.userinfo1{
+    display: inline-flex;
+    margin-right: 20px;
+    align-items: baseline;
 }
 
-@media only screen and (max-width: 370px ) {
-    .mobile{
-        display: flex;
-    }
-    .web{
-        display: none;
-    }
-    
+.userinfo1 button{
+    margin-left: 20px;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
 }
 
-@media only screen and (max-width: 640px ) {
-    .mobile{
-        display: flex;
-        margin-top: -5px;
-    }
-    .web{
-        display: none;
-    }
-    
+.userinfo1 h1{
+    font-size: 23px;
 }
 
-@keyframes animation{
-    from{
-        background-color: rgb(0, 0, 0);
-    }
-    50% {
-        background-color: rgb(0, 0, 0);
-    }
-    100% {
-        background-color: red;
-    }
-    to{
-        background-color: red;
-    }
+.mainscreen{
+    height: 91vh;
+    margin-right: 20px;
 }
-
-.divider{
-    height: 1px;
-    background-color: #0000FF;
-    width: 500px;
-}
-
-.main{
-    height: 70vh;
-    padding: 30px;
-}
-
-.maininfo{
-    margin-top: 11%;
-    padding: 30px;
-}
-
-.maininfo h1{
-    color: black;
-}
-
-
-.info{
-    padding: 30px;
-}
-
-.info p{
-    font-size: 20px;
-}
-
-.mainvideo{
-    margin-top: 5%;
-    padding: 20px;
-}
-
 

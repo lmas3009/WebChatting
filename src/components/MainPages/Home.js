@@ -1,35 +1,41 @@
 import React from 'react'
-import './Home.css'
-import Topnav from './Topnav'
-import Notress from '../../images/not-responding.png'
 import {Button} from 'react-bootstrap'
-
+import {Link,browserHistory,IndexRoute,BrowserRouter as Router,Route,Switch} from 'react-router-dom';
+import './Home.css'
 export default function Home(){
     return(
         <div>
-            <div className="web">
-                <Topnav/>
-            <div className="main">
-                <div className="row">
-                    <div className="col-sm-6 maininfo">
-                        <h1>Web Chatting Application</h1>
-                        <div className="divider"></div>
-                        <div className="info col-sm-10">    
-                            <p>This is the web application. Where your can
-                                chat with other, make a phone or video
-                                conference calls for communications.</p>
-                        </div>
+        <div className="header1">
+            <div className="title">
+                <h1>Web Chatting</h1>
+            </div>
+            <div className="userinfo">
+                <div className="userinfo1">
+                    <h1>Admin@gmail.com</h1>
+                    <button className='btn btn-warning'>Logout</button>
+                </div>
+            </div>
+        </div>
+
+        <div className="mainscreen">
+            <div className="row">
+                <div className="col-sm-2 center">
+                    <div className="friendlist">
+                        <h3>Friends List</h3>
                     </div>
-                    <div className="col-sm-6 mainvideo">
-                        <img src="https://freedomboatclub.fr/wp-content/plugins/ninja-forms/assets/img/no-image-available-icon-6.jpg" className="video"></img>
+                </div>
+                <div className="col-sm-8 center">
+                    <div className="chatsession">
+                        <h3>Chat session</h3>
+                    </div>
+                </div>
+                <div className="col-sm-2 center">
+                    <div className="others">
+                        <h3>others</h3>
                     </div>
                 </div>
             </div>
         </div>
-            <div className="mobile">
-                <img src={Notress} className="img404" />
-                <h2>This will be not working in mobile view</h2>
-            </div>
-        </div>
+    </div>
     )
 }

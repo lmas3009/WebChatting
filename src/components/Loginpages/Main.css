@@ -73,6 +73,9 @@
     color: white;
 }
 
+a{
+    text-decoration: none;
+}
 
 .signin{
     cursor: pointer;
@@ -87,8 +90,10 @@
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 10px;
+    list-style-type: none; 
 }
 .signin_1{
+    list-style-type: none; 
     cursor: pointer;
     height: 50px;
     width: 120px;
@@ -113,6 +118,7 @@
 }
 
 .signup{
+    list-style-type: none; 
     cursor: pointer;
     height: 50px;
     width: 120px;
@@ -127,6 +133,7 @@
     border-radius: 10px;
 }
 .signup_1{
+    list-style-type: none; 
     cursor: pointer;
     height: 50px;
     width: 120px;
